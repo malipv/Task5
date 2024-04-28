@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ac3ae57d-3cf5-454b-b2b4-e534e68f9ba5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Task5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccountReq400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccountReq404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccountReq404_typeCode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DockerContainers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insomnia_2024-04-29.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/Task5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/Interface/CreateRecordsable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/Interface/StepPExampleExecable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/Interface/StepPRegisterExecable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/controller/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/controller/RController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/entity/Account_pool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/entity/Agreement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/entity/Tpp_product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/entity/Tpp_product_register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/entity/Tpp_ref_account_type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/entity/Tpp_ref_product_class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/entity/Tpp_ref_product_register_type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/enumState/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/exceptions/BadReqException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/exceptions/NotFoundReqException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productExample/model/AdditionalPropertiesVip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productExample/model/InstanceArrangement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productExample/model/ProdExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productExample/service/Maker_PExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productExample/service/Step_11_PE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productExample/service/Step_12_PE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productExample/service/Step_13_PE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productExample/service/Step_14_PE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productExample/service/Step_1_PE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productExample/service/Step_21_PE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productExample/service/Step_23_PE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productExample/service/StructOkAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productRegistr/model/ProdRegistr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productRegistr/service/Maker_Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productRegistr/service/Step_1_PR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productRegistr/service/Step_2_PR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/productRegistr/service/Step_3_PR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/repository/AccountRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/repository/Account_poolRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/repository/AgreementRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/repository/Tpp_productRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/repository/Tpp_product_registerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/repository/Tpp_ref_account_typeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/repository/Tpp_ref_product_classRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/repository/Tpp_ref_product_register_typeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/service/CreateAgreement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/service/CreateTppProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/inno/task5/service/CreateTppProductRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/inno/task5/CreateExampleNotNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/inno/task5/CreateExampleNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/inno/task5/CreateRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schema.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2fjvYsNyDnzkgY97T5qnYQWwcLS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Tanya/IdeaProjects/Task5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.4335878",
+    "spring.configuration.checksum": "6cd943247bf3ca29be9f99f0fcc71e44",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Task5" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.inno.task5.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac3ae57d-3cf5-454b-b2b4-e534e68f9ba5" name="Changes" comment="" />
+      <created>1714327352425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714327352425</updated>
+      <workItem from="1714327353588" duration="706000" />
+      <workItem from="1714328073475" duration="1229000" />
+      <workItem from="1714329315737" duration="2309000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
