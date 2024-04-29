@@ -4,6 +4,7 @@ import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import ru.inno.task5.Interface.CreateRecordsable;
 import ru.inno.task5.productExample.model.ProdExample;
 import ru.inno.task5.repository.Tpp_productRepo;

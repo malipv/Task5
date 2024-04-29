@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import ru.inno.task5.Interface.StepPExampleExecable;
+import ru.inno.task5.exceptions.BadReqException;
 import ru.inno.task5.exceptions.NotFoundReqException;
 import ru.inno.task5.productExample.model.ProdExample;
 import ru.inno.task5.repository.Tpp_ref_product_classRepo;

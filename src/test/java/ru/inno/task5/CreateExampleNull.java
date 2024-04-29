@@ -95,39 +95,39 @@ public class CreateExampleNull {
     @Description("1 Проверка 1-го шага ТЗ ЭП Заполнение обязательных значений")
     void step_1_PETest() {
         modelExample.setProductType(null);
-        assertThrows(BadReqException.class, () -> step_1_pe.execute(modelExample));
+        assertThrows(BadReqException.class, ()->step_1_pe.execute(modelExample));
 
         modelExample.setContractDate(null);
-        assertThrows(BadReqException.class, () -> step_1_pe.execute(modelExample));
+        assertThrows(BadReqException.class, ()->step_1_pe.execute(modelExample));
 
         modelExample.setContractDate(LocalDate.parse("2024-03-29", DateTimeFormatter.ofPattern("yyyy-MM-dd")));
         modelExample.setProductType("НСО");
-        Assertions.assertDoesNotThrow(() -> step_1_pe.execute(modelExample));
-    }
+        Assertions.assertDoesNotThrow(()->step_1_pe.execute(modelExample));
 
+    }
     @Test
     @Description("2 Проверка 1.1  шага ТЗ ЭП")
         // Проверка наличия записи в таблице tpp_product со значением number (если есть отправляем BadStatus )
-    void step_11_PETest() {
-        Assertions.assertDoesNotThrow(() -> step_11_pe.execute(modelExample));
+    void step_11_PETest(){
+        Assertions.assertDoesNotThrow(()->step_11_pe.execute(modelExample));
     }
 
     @Test
     @Description("3 Проверка 1.2  шага ТЗ ЭП")
         // Проверка записей в таблице agreement со значением  number из  массива InstanceArrangement, если есть отправляем BadStatus
-    void step_12_PETest() {
-        Assertions.assertDoesNotThrow(() -> step_12_pe.execute(modelExample));
+    void step_12_PETest(){
+        Assertions.assertDoesNotThrow(()->step_12_pe.execute(modelExample));
     }
 
     @Test
     @Description("4 Проверка 1.3 шага ТЗ ЭП")
         // Выбираем записи из tpp_ref_pproduct_class (чтобы затем найти все записи из tpp_ref_product_register_type)
         // Если не нашли вернем ответ ()
-    void step_13_PETest() {
+    void step_13_PETest(){
         modelExample.setProductCode("03.00000.002");
-        assertThrows(NotFoundReqException.class, () -> step_13_pe.execute(modelExample));
+        assertThrows(NotFoundReqException.class, ()->step_13_pe.execute(modelExample));
         modelExample.setProductCode("03.012.002");
-        Assertions.assertDoesNotThrow(() -> step_13_pe.execute(modelExample));
+        Assertions.assertDoesNotThrow(()->step_13_pe.execute(modelExample));
     }
 
     @Test
@@ -137,6 +137,6 @@ public class CreateExampleNull {
         Assertions.assertNotNull(okAnswer);
         Assertions.assertNotNull(okAnswer);
         Assertions.assertNotNull(okAnswer.getInstanseId());
-        assertThrows(BadReqException.class, () -> step_11_pe.execute(modelExample));
+        assertThrows(BadReqException.class, ()->step_11_pe.execute(modelExample));
     }
 }

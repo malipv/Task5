@@ -6,5 +6,5 @@ import ru.inno.task5.entity.Tpp_ref_product_class;
 import java.util.List;
 
 public interface Tpp_ref_product_classRepo extends CrudRepository<Tpp_ref_product_class, Long> {
-    List<Tpp_ref_product_class> findByValue(String value);
+ public List<Tpp_ref_product_class> findByValue(String value);
 }

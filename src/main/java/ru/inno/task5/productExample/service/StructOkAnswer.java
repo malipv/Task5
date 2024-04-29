@@ -3,7 +3,9 @@ package ru.inno.task5.productExample.service;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import ru.inno.task5.entity.Agreement;
+import ru.inno.task5.entity.Tpp_product;
 import ru.inno.task5.entity.Tpp_product_register;
 
 import java.util.ArrayList;

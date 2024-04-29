@@ -101,7 +101,7 @@ public class CreateExampleNotNull {
 
         // запись не найдена
         modelExample.setInstanceId(99L);
-        assertThrows(NotFoundReqException.class, () -> step_21_pe.execute(modelExample));
+        assertThrows(NotFoundReqException.class, ()->step_21_pe.execute(modelExample));
 
         modelExample.setInstanceId(null);
 
@@ -111,7 +111,7 @@ public class CreateExampleNotNull {
         Assertions.assertNotNull(tpp_product);
 
         modelExample.setInstanceId(tpp_product.getId());
-        Assertions.assertDoesNotThrow(() -> step_21_pe.execute(modelExample));
+        Assertions.assertDoesNotThrow(()->step_21_pe.execute(modelExample));
     }
 
     @Test

@@ -68,23 +68,24 @@ public class CreateRegister {
     @Description("Проверка 1-го шага ТЗ")
     void Step_1_PRTest() {
         modelRegister.setInstanceId(null);
-        assertThrows(BadReqException.class, () -> step_1_pr.execute(modelRegister));
+        assertThrows(BadReqException.class, ()->step_1_pr.execute(modelRegister));
         modelRegister.setInstanceId(10L);
-        Assertions.assertDoesNotThrow(() -> step_1_pr.execute(modelRegister));
+        Assertions.assertDoesNotThrow(()->step_1_pr.execute(modelRegister));
     }
 
     @Test
     @Description("Проверка 2-го шага ТЗ")
-    void Step_2_PRTest() {
-        Assertions.assertDoesNotThrow(() -> step_2_pr.execute(modelRegister));
+    void Step_2_PRTest(){
+        Assertions.assertDoesNotThrow(()->step_2_pr.execute(modelRegister));
     }
 
     @Test
     @Description("Проверка 3-го шага ТЗ проверка наличия записи в tpp_ref_product_register")
-    void Step_3_PRTest() {
-        Assertions.assertDoesNotThrow(() -> step_3_pr.execute(modelRegister));
+    void Step_3_PRTest(){
+        Assertions.assertDoesNotThrow(()->step_3_pr.execute(modelRegister));
         modelRegister.setRegistryTypeCode("03.012.002_47533_ComS");
-        assertThrows(NotFoundReqException.class, () -> step_3_pr.execute(modelRegister));
+        assertThrows(NotFoundReqException.class, ()->step_3_pr.execute(modelRegister));
+
     }
 
     @Test
@@ -92,6 +93,6 @@ public class CreateRegister {
     void createTppProductRegisterTest() {
         Tpp_product_register tpp_product_register = createTppProductRegister.create_rec_table(modelRegister);
         Assertions.assertNotNull(tpp_product_register);
-        assertThrows(BadReqException.class, () -> step_2_pr.execute(modelRegister));
+        assertThrows(BadReqException.class, ()->step_2_pr.execute(modelRegister));
     }
 }
